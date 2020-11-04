@@ -796,7 +796,10 @@ body:after{
 }
 
 .prev-arrow:before {
+
   content: "<";
+  font-weight: bold;
+    color: black;
 }
 
 .next-arrow {
@@ -805,4 +808,6 @@ body:after{
 
 .next-arrow:after {
   content: ">";
+  font-weight: bold;
+    color: black;
 }
